@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="index.js"></script>
+    <title>Happy Hack</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div id="main">
+
+            <img id="logo" src="images/logo.png" alt="">
+            <h1>We are Web Designers.</h1>
+
+            <div class="top-slide">
+                <div><img src="images/background2.jpg" alt=""></div>
+                <div><img src="images/background3.jpg" alt=""></div>
+                <div><img src="images/background4.jpg" alt=""></div>
+            </div>
+
+            <!--
+            <div class="slide">
+            <img src="images/background2.jpg" alt="">
+            <img src="images/background3.jpg" alt="">
+            <img src="images/background4.jpg" alt="">
+            <img src="images/background5.jpg" alt="">
+            </div>
+-->
+            <nav>
+                <ul>
+                    <li>Introduction</li>
+                    <li>Courses</li>
+                    <li>Images</li>
+                    <li>Access</li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+
+        <div id="Introduction">
+            <h1 class="top-title">Introduction</h1>
+            <img src="images/introduction_001.jpg" alt="">
+            <p>Happy Hackはいまをときめく若者がITを活用したものづ<br>くりに取り組める環境を提供しています。<br>特に、Webデザイン領域のプログラミング学習をしている生<br>徒が一番積極的に活動しています。<br>誰でも最初は初心者。それを一番知っている我々がプログ<br>ラミングへの第一歩を踏み出すお手伝いをさせていただき<br>ます。</p>
+            <a href="#" id="button1">会員登録</a>
+
+            <p>Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログ<br>ラミングを学びます。コースは全部で７つ準備しています。<br>Webデザインからwebサービス、３Dゲームや iPhoneアプ<br>リまで幅広くお楽しみいただけます。<br>自分の想いをカタチにして発信することをぜひこの場で体験<br>してみてください。世界が変わって見えるかもしれません。</p>
+            <a href="#" id="button2">会員登録</a>
+            <img src="images/introduction_002.jpg" alt="">
+        </div>
+
+
+
+        <div id="Courses">
+            <h1 class="top-title">Courses</h1>
+            <div id="HTML">
+                <img src="images/html.png" alt="">
+                <p>HTMLコース</p>
+                <a class="coursesbutton" id="b1" href="">このコースを受ける</a>
+            </div>
+            <div id="CSS">
+                <img src="images/css.png" alt="">
+                <p>CSSコース</p>
+                <a class="coursesbutton" id="b2" href="">このコースを受ける</a>
+            </div>
+            <div id="Unity">
+                <img src="images/Unity.png" alt="">
+                <p>Unityコース</p>
+                <a class="coursesbutton" id="b3" href="">このコースを受ける</a>
+            </div>
+            <div id="Ruby">
+                <img src="images/ruby.png" alt="">
+                <p>Rubyコース</p>
+                <a class="coursesbutton" id="b4" href="">このコースを受ける</a>
+            </div>
+            <div id="JS">
+                <img src="images/js.png" alt="">
+                <p>JSコース</p>
+                <a class="coursesbutton" id="b5" href="">このコースを受ける</a>
+            </div>
+            <div id="Swift">
+                <img src="images/swift.png" alt="">
+                <p>Swiftコース</p>
+                <a class="coursesbutton" id="b6" href="">このコースを受ける</a>
+            </div>
+            <div id="Go">
+                <img src="images/go.png" alt="">
+                <p>Goコース</p>
+                <a class="coursesbutton" id="b7" href="">このコースを受ける</a>
+            </div>
+        </div>
+
+
+
+        <div id="Images">
+            <h1 class="top-title">Images</h1>
+            <img src="images/background2.jpg" alt="">
+            <img src="images/background3.jpg" alt="">
+            <img src="images/background4.jpg" alt="">
+            <img src="images/background5.jpg" alt="">
+        </div>
+
+
+
+        <div id="Access">
+            <h1 class="top-title">Access</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3131287759848!2d135.49025991498186!3d34.69728128043535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1582387296130!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+
+        <footer>
+            <p>©️2019 Happy Hack</p>
+        </footer>
+    </div>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.slider').slick({
+                $('.fade').slick({
+                    dots: true,
+                    infinite: true,
+                    speed: 500,
+                    fade: true,
+                    cssEase: 'linear'
+                });
+
+            });
+        });
+    </script>
+
+</body>
+
+</html>

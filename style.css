@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body {
+font-family: 'Futura';
+font-style: Medium;
+    
+}
+
+.top-title{
+    color: #3D5CDB;
+    font-size: 50px;
+
+}
+
+#main h1{
+    color: #fff;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.slide {
+    position: absolute;
+}
+
+nav{
+    overflow: hidden;
+    position:relative;
+}
+
+nav li{
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 14px 16px 0;
+    color: #fff;
+}
+
+nav li:hover{
+    color: #3D5CDB;
+    
+}
+
+
+#Introduction img{
+    float: left;
+    width: 500px;
+}
+
+.coursesbutton{
+    
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 12px;
+    
+}
+#b1{
+    border: 1px solid #;
+    background: #000;
+}
+
+#b2{
+    border: 1px solid #;
+    background: #000;
+}
+
+#b3{
+    border: 1px solid #;
+    background: #000;
+}
+
+#b4{
+    border: 1px solid #;
+    background: #000;
+}
+
+#b5{
+    border: 1px solid #;
+    background: #000;
+}
+
+#b6{
+    border: 1px solid #;
+    background: #000;
+}
+
+#b7{
+    border: 1px solid #;
+    background: #000;
+}
+
+
+#Courses{
+    background: #eee;
+}
+
+
+#HTML{
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 30px 50px;
+    
+}
+
+#button1{
+    border: 1px solid #3D5CDB;
+    color: #fff;
+    background: #3D5CDB;
+    text-decoration: none;
+    padding: 5px 50px;
+    border-radius: 12px;
+}
+
+#button1:hover{
+    box-shadow:2px 2px 10px #888;
+    transition:0.5s;
+}
+
+#button2{
+    border: 1px solid #FFBF00;
+    color: #fff;
+    background: #FFBF00;
+    text-decoration: none;
+    padding: 5px 50px;
+    border-radius: 12px;
+}
+
+
+
+
+
+footer p{
+    
+    color: #3D5CDB;
+    margin: 0 auto;
+}
